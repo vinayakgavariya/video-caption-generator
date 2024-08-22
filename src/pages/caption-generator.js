@@ -114,7 +114,7 @@ const CaptionGenerator = () => {
         )}
 
         <div className="bg-blue-100 p-4 rounded-lg text-blue-500 text-center min-h-[100px]">
-          {caption || (loading ? 'Generating caption, please wait...' : 'Auto-generated caption will appear here.')}
+          {caption || (loading ? 'Generating caption, please wait....' : 'Auto-generated caption will appear here.')}
         </div>
       </div>
     </div>
